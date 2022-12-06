@@ -1,0 +1,21 @@
+{
+  "name": "introduction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "DEBUG=@neo4j/graphql:* nodemon index.js --watch .env --watch schema.graphql --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@neo4j/graphql": "^3.13.0",
+    "apollo-server": "^3.8.2",
+    "graphql": "^16.0.0",
+    "dotenv": "^8.2.0",
+    "neo4j-driver": "^5.3.0",
+    "nodemon": "^2.0.7"
+  }
+}
